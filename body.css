@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(92, 96, 128);
+    box-sizing: content-box;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+#blog-post-container {
+    width: 75%;
+    float: left;
+
+}
+.date {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+
+}
+#other-post {
+    width: 25%;
+    float: left;
+}
+.box {
+    background-color: rgb(108, 116, 172);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: justify;
+    box-shadow: 2px 2px 8px rgba(28,23,25,0.15);
+    transition: box-shadow 0.5s linear;
+}
+.box:hover {
+    box-shadow: 10px 10px 8px rgba(28,23,25,0.15);
+}
+.box img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: opacity 1s linear;
+}
+.box img:hover {
+    opacity: 0.7;
+}
+
+#writer img {
+    border-radius: 50%;
+    float: left;
+}
+#blog-post {
+    position: relative;
+}
+
+.yazar {
+    border-top: 2px solid rgb(142, 128, 128);
+    padding: 5px;
+}
+.info-text {
+    margin-top: 35px;
+    margin-left: 125px;
+
+}
+#share a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(54, 57, 109);
+    opacity: 0.9;
+    transition: opacity 1s;
+}
+#share a:hover {
+    opacity: 0.4;
+}
+.p20 {
+    padding: 20px;
+}
+.list {
+    list-style: none;
+}
+.header {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(68, 66, 66,0.4);
+}
+.link {
+    display: inline-block;
+}
+#under-link {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(108, 116, 172);
+    color: black;
+    border-radius: 3px;
+    padding: 0 20px;
+    transition: box-shadow 0.5s linear;
+}
+#under-link:hover {
+    box-shadow: 2px 2px 8px;
+}
+.blog-title {
+    text-transform: capitalize;
+    display: inline;
+    transition: box-shadow 0.3s linear;
+    border-radius: 5px;
+}
+.blog-title:hover {
+    box-shadow: 2px 2px 8px;
+}
+.blog-title a {
+    text-decoration: none;
+    color: black;
+}
+/* navbar */
+#nav{
+    background-color: black;
+}
+#nav li{
+    display: inline-block;
+}
+
+.menu{
+    display: inline-block;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.menu:hover{
+    background-color: rgb(108, 116, 172);
+}
